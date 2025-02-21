@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Check if the element exists before attempting to access it.
+    const myDiv = document.getElementById("myDiv");
+    if (myDiv) {
+      myDiv.innerHTML = "Hello";
+    } else {
+      console.error("Element with id 'myDiv' not found.");
+    }
+  </script>
+</body>
+</html>
