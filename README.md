@@ -1,0 +1,1 @@
+This repository demonstrates two uncommon yet possible HTML errors. The first is attempting to access a DOM element that doesn't exist, leading to a runtime error. The second shows the issue of missing closing tags, often causing parsing problems.  The `bug.html` file shows these errors, and `bugSolution.html` provides corrected versions.
